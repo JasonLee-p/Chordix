@@ -14,13 +14,9 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     install_package_data=True,
     package_data={'': ['*.txt', '*.md', '*.json', '*.png']},
-    url="https://github.com/JasonLee-p/pyPCS",
+    url="https://github.com/JasonLee-p/Chordix",
     install_requires=[
-        'numpy==1.24.2',
-        'pygame==2.3.0',
-        'rtmidi==2.5.0',
-        'webcolors==1.12',
-        'Pillow==9.5.0'
+        'numpy==1.21.2',
     ],
     packages=setuptools.find_packages(),
     classifiers=[
